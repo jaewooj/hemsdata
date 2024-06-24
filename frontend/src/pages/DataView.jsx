@@ -1,8 +1,9 @@
 import React from 'react';
+import './DataView.css'
 
 const DataView = () => {
     return (
-        <div>
+        <div className="dataView">
             
         </div>
     );

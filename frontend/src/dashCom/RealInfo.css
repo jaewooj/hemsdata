@@ -1,0 +1,95 @@
+.realInfo {
+    width: 100%;
+    height: 240px;
+}
+.realInfo .realTimeData {
+    width: 100%;
+    height: 240px;
+    background: #101B34;
+}
+.realInfo .realTimeData .rtdTt {
+    width: 100%;
+    height: 40px;
+    display: block;
+    color: #fff;
+    line-height: 40px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 0 3px rgb(255, 255, 255,0.9);
+    background: #59A3F8;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+.realInfo .realTimeData ul {
+    width: 100%;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #E8E8E8;
+}
+.realInfo .realTimeData ul li {
+}
+.realInfo .realTimeData ul .dcGr {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    justify-content: start;
+    background: #101B34;
+}
+.realInfo .realTimeData .dcGr .realTitle {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 0 0 3px rgb(255, 255, 255,0.9);
+    background: #2E58C6;
+}
+.realInfo .realTimeData .dcGr .realCon {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #fff;
+}
+.dashboard .realTimeData ul .dcGr .circleGraph{
+    width: 50%;
+    height: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.dashboard .realTimeData ul li .realTimeGeneration {
+    height: 100%;
+    width: 50%;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    /* padding: 0px 20px; */
+    box-sizing: border-box;
+}
+.dashboard .realTimeData ul li .realTimeGeneration div {
+    display: flex;
+    margin: 0 auto;
+    /* justify-content: space-between; */
+}
+
+
+
+/* 연습 */
+.plug {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    margin-right: 5px;
+}

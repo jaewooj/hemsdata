@@ -1,0 +1,31 @@
+#wrap .main .nav {
+    width: 15%;
+    height: 100%;
+    background: #101C34;
+    border-right: 2px solid #fff;
+    box-sizing: border-box;
+}
+.nav .menuBoxOn {
+    background: #008886;
+
+} 
+.nav ul {
+    width: 100%;
+    height: 100%;
+}
+.nav ul li {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+.nav ul li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

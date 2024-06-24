@@ -1,0 +1,13 @@
+.alram {
+    width: 100%;
+    height: 50%;
+}
+.alram .boxCss {
+    width: 100%;
+    height: 100%;
+}
+.alram .boxCss .boxCon {
+    width: 100%;
+    height: 130px;
+    /* background: #fff; */
+}

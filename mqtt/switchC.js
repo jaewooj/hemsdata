@@ -19,7 +19,7 @@ const turnOnLights = () => {
   client.publish('zigbee2mqtt/0xa4c138bce829abd7/set', JSON.stringify({
     "state_left": "on",
     "state_center": "on",
-    "state_right": "off"
+    "state_right": "on"
   }), () => {
     console.log('Sent command to turn on the lights');
   });
@@ -31,8 +31,8 @@ const scheduleLightsOn = () => {
     now.getFullYear(),
     now.getMonth(),
     now.getDate(),
-    14, // 12 PM
-    32, // 30 minutes
+    12, // 12 PM
+    27, // 30 minutes
     0 // 0 seconds
   );
 

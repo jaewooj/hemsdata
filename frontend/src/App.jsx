@@ -2,12 +2,12 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './assets/css/reset.css'
 import './assets/css/common.css'
-import Layout from './components/Layout'
-import Audit from './pages/audit'
-import Dashboard from './pages/dashboard'
-import DataView from './pages/dataView'
-import Hems from './pages/hems'
-import Rems from './pages/rems'
+import './assets/css/comRev.css'
+import Layout from './components/Layout.jsx'
+import Audit from './pages/Audit.jsx'
+import Dashboard from './pages/Dashboard.jsx'
+import DataView from './pages/DataView.jsx'
+import Hems from './pages/Hems.jsx'
 
 const App = () => {
   return (
@@ -17,7 +17,6 @@ const App = () => {
             <Route index element={<Dashboard/>}/>
 
             <Route path="/hems" element={<Hems/>}/>
-            <Route path="/rems" element={<Rems/>}/>
             <Route path="/audit" element={<Audit/>}/>
             <Route path="/dataview" element={<DataView/>}/>
             

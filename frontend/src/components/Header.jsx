@@ -1,12 +1,11 @@
 import './Header.css'
-import Navbar from './Navbar';
-import Title from './title';
+import Title from './Title.jsx';
 
 const Header = () => {
     return (
         <header className="header">
             <Title/>
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="inner">
             </div>
         </header>
